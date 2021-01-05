@@ -105,3 +105,33 @@ ul {
 .team-name{
     font-weight: 500;
 }
+
+/*Портфолио*/
+.booton{
+font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+text-align: center;
+}
+
+.booton-link{
+    color: var(--links-text-color);
+}
+
+.booton-link:hover,
+.booton-link:focus {
+    color: var(--text-hero);
+}
+
+.project-name{
+    text-align: left;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.project-type{
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--standart-text);
+}
