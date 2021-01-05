@@ -135,3 +135,7 @@ text-align: center;
     line-height: 1.88;
     color: var(--standart-text);
 }
+
+.footer-addres{
+    font-style: normal;
+}
