@@ -1,0 +1,107 @@
+/* ++ стандартный шрифт страницы Roboto */
+/* ++ шрифт лого Raleway */
+/* ++ стандартный цвет ссылок и h2, h3  #212121; */
+/* ++ подсвеченный цвет ссылок, #2196F3;*/
+/* цвет текста Герой #FFFFFF;*/
+/* ++ цвет стандартного текста и номера телефона #757575;*/
+/* */
+
+/* Базовые настройки*/
+:root{
+    --links-text-color: #212121;
+    --links-text-color-active: #2196F3;
+    --standart-text: #757575;
+    --text-hero: green;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+    color: var(--standart-text);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-hero);
+}
+
+h2{
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+h3{
+    color: #212121;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Хедер */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+.logo2{
+    color: #000000;
+}
+
+.header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-links{
+    color: var(--links-text-color);
+}
+
+.header-links:hover,
+.header-links:focus,
+.header-address:hover,
+.header-address:focus {
+    color: var(--links-text-color-active);
+}
+
+.header-address{
+    color: var(--standart-text);
+}
+
+/* Основной блок */
+
+.order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    color: var(--text-hero);
+}
+
+.team {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-name{
+    font-weight: 500;
+}
