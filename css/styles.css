@@ -73,6 +73,12 @@ ul {
 
 .header-links{
     color: var(--links-text-color);
+    text-decoration: none;
+}
+
+.header-links-active{
+    color: blue;
+    text-decoration: none;
 }
 
 .header-links:hover,
@@ -80,6 +86,7 @@ ul {
 .header-address:hover,
 .header-address:focus {
     color: var(--links-text-color-active);
+    text-decoration: none;
 }
 
 .header-address{
